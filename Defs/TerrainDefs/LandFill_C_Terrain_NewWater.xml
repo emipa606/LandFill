@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- General things -->
+  <TerrainDef Name="LFNewWaterBase" Abstract="True">
+    <layerable>false</layerable>
+    <designationCategory>DesignationLandFill</designationCategory>
+    <edgeType>Water</edgeType>
+    <fertility>0</fertility>
+    <filthAcceptanceMask>
+      <li>None</li>
+    </filthAcceptanceMask>
+    <affordances>
+      <li>Undefined</li>
+    </affordances>
+    <avoidWander>true</avoidWander>
+    <holdSnow>false</holdSnow>
+    <takeSplashes>true</takeSplashes>
+    <extinguishesFire>true</extinguishesFire>
+    <takeFootprints>True</takeFootprints>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+  </TerrainDef>
+  <!-- New individual waters -->
+  <TerrainDef ParentName="LFNewWaterBase">
+    <defName>NewWaterShallow</defName>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <label>passable shallow water</label>
+    <description>Simple water shallow placed on soil, colonists can dive and kids think that's cool. Require a lot of work.\n\n•Don't support builds.\n•Set on diggable terrains.\n•Slow, neutral beauty.</description>
+    <renderPrecedence>393</renderPrecedence>
+    <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>ResearchWaterShallow</li>
+    </researchPrerequisites>
+    <statBases>
+      <Beauty>0</Beauty>
+      <WorkToBuild>2100</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>15</pathCost>
+  </TerrainDef>
+  <TerrainDef ParentName="LFNewWaterBase">
+    <defName>NewWaterDeep</defName>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <label>passable deep water</label>
+    <description>More water on a existent spot will making it more deep, colonists are afraid of drowning and kids dies. Require a lot of work.\n\n•Don't support builds.\n•Set on unstable soil.\n•Very slow, beautiful.</description>
+    <renderPrecedence>394</renderPrecedence>
+    <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>ResearchWaterDeep</li>
+    </researchPrerequisites>
+    <statBases>
+      <Beauty>2</Beauty>
+      <WorkToBuild>2300</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>55</pathCost>
+  </TerrainDef>
+</Defs>

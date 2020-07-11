@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DesignationCategoryDef>
+    <defName>DesignationLandFill</defName>
+    <label>land Fill</label>
+    <description>Ways to change the terrain around you.</description>
+    <order>90</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_RemoveFloor</li>
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+</Defs>

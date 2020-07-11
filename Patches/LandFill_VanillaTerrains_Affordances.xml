@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Setup affordances !-->
+  <!-- Deep water !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "WaterDeep"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+    <value>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "WaterOceanDeep"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+    <value>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "WaterMovingChestDeep"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+    <value>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <!-- Shallow water !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "WaterShallow"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+    <value>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "WaterOceanShallow"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+    <value>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "WaterMovingShallow"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+    <value>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <!-- Mud / Marsh / Marshy !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "Mud"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "Mud"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "Mud"]/affordances</xpath>
+    <value>
+      <li>Diggable</li>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "Marsh"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+    <value>
+      <li>Diggable</li>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TerrainDef[defName = "MarshyTerrain"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[defName = "MarshyTerrain"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>/Defs/TerrainDef[defName = "MarshyTerrain"]/affordances</xpath>
+    <value>
+      <li>Light</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+      <li>Undefined</li>
+    </value>
+  </Operation>
+</Patch>

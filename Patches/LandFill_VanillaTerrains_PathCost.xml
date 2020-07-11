@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Setup passability !-->
+  <!-- Deep water !-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/TerrainDef[@Name="WaterDeepBase"]/passability</xpath>
+    <value>
+      <passability>PassThroughOnly</passability>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/TerrainDef[@Name="WaterDeepBase"]/pathCost</xpath>
+    <value>
+      <pathCost>13000</pathCost>
+    </value>
+  </Operation>
+  <!-- Shallow water !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[@Name="WaterShallowBase"]/pathCost</xpath>
+        <value>
+          <pathCost>15</pathCost>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Mud & Marsh !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName = "Mud"]/pathCost</xpath>
+        <value>
+          <pathCost>15</pathCost>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName = "Marsh"]/pathCost</xpath>
+        <value>
+          <pathCost>15</pathCost>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

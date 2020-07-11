@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New individual foundations -->
+
+  <LFFoundationLight.label>light foundation</LFFoundationLight.label>
+  <LFFoundationLight.description>A foundation placed on unstable terrains to make they strong for light buildings, especially bridges.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Slow, very ugly.</LFFoundationLight.description>
+
+  <LFFoundationHeavy.label>heavy foundation</LFFoundationHeavy.label>
+  <LFFoundationHeavy.description>A foundation placed on unstable terrains to make they strong for buildings.\n\n•Support builds.\n•Set on water, mud, marsh.\n•Slow, dirty, very ugly.</LFFoundationHeavy.description>
+
+
+</LanguageData>

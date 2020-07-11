@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New individual slides -->
+
+  <SlideMud.label>sliding mud</SlideMud.label>
+  <SlideMud.description>A lot of mud dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.\n\n•Don't support builds.\n•Set on diggable soils.\n•Very fast, dirty, ugly.\n•Deteriorate in 5 days.</SlideMud.description>
+  <SlideMud_Blueprint.label>sliding mud (blueprint)</SlideMud_Blueprint.label>
+  <SlideMud_Frame.label>sliding mud (building)</SlideMud_Frame.label>
+  <SlideMud_Frame.description>A lot of mud dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.\n\n•Don't support builds.\n•Set on diggable soils.\n•Very fast, dirty, ugly.\n•Deteriorate in 5 days.</SlideMud_Frame.description>
+
+  <SlideIce.label>sliding ice</SlideIce.label>
+  <SlideIce.description>A lot of ice dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.\n\n•Don't support builds.\n•Set on diggable soils.\n•Very fast, neutral beauty.\n•Deteriorate in 2 days.</SlideIce.description>
+  <SlideIce_Blueprint.label>sliding ice (blueprint)</SlideIce_Blueprint.label>
+  <SlideIce_Frame.label>sliding ice (building)</SlideIce_Frame.label>
+  <SlideIce_Frame.description>A lot of ice dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.\n\n•Don't support builds.\n•Set on diggable soils.\n•Very fast, neutral beauty.\n•Deteriorate in 2 days.</SlideIce_Frame.description>
+
+  <SlideAutomated.label>automated slide</SlideAutomated.label>
+  <SlideAutomated.description>A mechanical treademill on floor built from gears and bearings to walk really faster.\n\n•Don't support builds.\n•Set on smoothed floors.\n•Very fast, neutral beautiful.\n•Don't need energy.\n•Deteriorate in 1 year.</SlideAutomated.description>
+  <SlideAutomated_Blueprint.label>automated slide (blueprint)</SlideAutomated_Blueprint.label>
+  <SlideAutomated_Frame.label>automated slide (building)</SlideAutomated_Frame.label>
+  <SlideAutomated_Frame.description>A mechanical treademill on floor built from gears and bearings to walk really faster.\n\n•Don't support builds.\n•Set on smoothed floors.\n•Very fast, neutral beautiful.\n•Don't need energy.\n•Deteriorate in 1 year.</SlideAutomated_Frame.description>
+
+
+</LanguageData>

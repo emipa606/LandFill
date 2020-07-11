@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New individual waters -->
+
+  <NewWaterShallow.label>passable shallow water</NewWaterShallow.label>
+  <NewWaterShallow.description>Simple water shallow placed on soil, colonists can dive and kids think that's cool. Require a lot of work.\n\n•Don't support builds.\n•Set on diggable terrains.\n•Slow, neutral beauty.</NewWaterShallow.description>
+
+  <NewWaterDeep.label>passable deep water</NewWaterDeep.label>
+  <NewWaterDeep.description>More water on a existent spot will making it more deep, colonists are afraid of drowning and kids dies. Require a lot of work.\n\n•Don't support builds.\n•Set on unstable soil.\n•Very slow, beautiful.</NewWaterDeep.description>
+
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New individual roads -->
+
+  <OverwaterSimpleRoad.label>simple road overwater</OverwaterSimpleRoad.label>
+  <OverwaterSimpleRoad.description>A simple road built from simple materials, work to walk.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Slow, dirty and ugly.</OverwaterSimpleRoad.description>
+
+
+  <!-- New individual flagstone roads -->
+
+  <SandFlagstoneOverwater.label>sandstone overwater</SandFlagstoneOverwater.label>
+  <SandFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty.</SandFlagstoneOverwater.description>
+
+  <GraniteFlagstoneOverwater.label>granite overwater</GraniteFlagstoneOverwater.label>
+  <GraniteFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty.</GraniteFlagstoneOverwater.description>
+
+  <LimeFlagstoneOverwater.label>limestone overwater</LimeFlagstoneOverwater.label>
+  <LimeFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty.</LimeFlagstoneOverwater.description>
+
+  <SlateFlagstoneOverwater.label>slate overwater</SlateFlagstoneOverwater.label>
+  <SlateFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty.</SlateFlagstoneOverwater.description>
+
+  <MarbleFlagstoneOverwater.label>marble overwater</MarbleFlagstoneOverwater.label>
+  <MarbleFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty.</MarbleFlagstoneOverwater.description>
+
+
+</LanguageData>

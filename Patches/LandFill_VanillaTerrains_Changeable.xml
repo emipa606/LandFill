@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Remove Changeables !-->
+  <!-- Deep water !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "WaterDeep"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "WaterOceanDeep"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "WaterMovingDeep"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Shallow water !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "WaterShallow"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "WaterOceanShallow"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "WaterMovingShallow"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
