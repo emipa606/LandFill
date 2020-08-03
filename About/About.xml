@@ -6,6 +6,7 @@
   <url>https://github.com/emipa606/LandFill</url>
   <supportedVersions>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -27,22 +28,22 @@ Water, mud and marsh are friends. Take vantage of the terrain around you.
 Add soils, roads, bridges, sliding floors and more.
 
 CONTENT
-• Soils: build overwater. Some are growable and placed indoor.
-• Bridges: build overwater. Good to walk but deteriorate overtime.
-• Roads: build overwater. Walk more efficiently.
-• Foundations: build overwater. Set up for buildings.
-• Slides: build over soils and floors. Increase the walk speed.
-• Water: build over soils. Set up for terrains and slow down enemies.
+� Soils: build overwater. Some are growable and placed indoor.
+� Bridges: build overwater. Good to walk but deteriorate overtime.
+� Roads: build overwater. Walk more efficiently.
+� Foundations: build overwater. Set up for buildings.
+� Slides: build over soils and floors. Increase the walk speed.
+� Water: build over soils. Set up for terrains and slow down enemies.
   (obs: overwater = over water, mud and marsh in most cases.)
 
 BALANCING
-• Stuffs that rapidly deteriorate don't require much work or resources.
-• Bad stuffs starts with tribal colonies and don't require much work or resources.
-• The most part can't be removed but can be replaced (abuse of Primitive and Neutral soil).
-• Automated stuffs don't need energy and aren't breakable.
-• The pathCost of vanilla water, mud and marsh are slightly changed.
+� Stuffs that rapidly deteriorate don't require much work or resources.
+� Bad stuffs starts with tribal colonies and don't require much work or resources.
+� The most part can't be removed but can be replaced (abuse of Primitive and Neutral soil).
+� Automated stuffs don't need energy and aren't breakable.
+� The pathCost of vanilla water, mud and marsh are slightly changed.
 
 COMPATIBILITY
-• Compatible with existent saves but may present inconsistencies with some floor mods.
+� Compatible with existent saves but may present inconsistencies with some floor mods.
   (example: be able to set some terrains in strange places).</description>
 </ModMetaData>
