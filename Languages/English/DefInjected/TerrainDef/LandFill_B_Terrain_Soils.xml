@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- New individual soils -->
-
   <LFPrimitiveSoil.label>primitive soil</LFPrimitiveSoil.label>
   <LFPrimitiveSoil.description>Very bad soil but don't need resources or research to build. Work to walk over water.\n\n•Don't support builds.\n•Set on water, mud, marsh.\n•Very slow, very dirty, ugly.</LFPrimitiveSoil.description>
-
   <LFNeutralSoil.label>neutral soil</LFNeutralSoil.label>
   <LFNeutralSoil.description>Neutral terrain placed over soils or strong floors like foundations.\n\n•Don't support builds.\n•Set on floors, mud, marsh.\n•Not growable.\n•Slow, dirty, ugly.</LFNeutralSoil.description>
-
   <LFIndoorSoil.label>indoor soil</LFIndoorSoil.label>
   <LFIndoorSoil.description>A simple soil placed on smooth floors to grow inside home. Not so good than natural soil.\n\n•Support only light builds.\n•Growable\n•Set on smoothed floors.\n•Slow, dirty, ugly.</LFIndoorSoil.description>
-
   <LFSuperRich.label>super rich soil</LFSuperRich.label>
   <LFSuperRich.description>Best soil on the galaxy to plants but needs a lot of resources to be placed.\n\n•Support only light builds.\n•VERY Growable\n•Set on water, mud, marsh.\n•Neutral speed.</LFSuperRich.description>
-
-
 </LanguageData>

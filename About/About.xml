@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Land Fill (Terrains+) (Continued)</name>
   <packageId>Mlie.LandFill</packageId>
@@ -7,43 +7,72 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of tremeloes mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of tremeloes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1274692210
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
-
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/LandFill
-
 - Might not work exactly as earlier as some features have been removed in the game since B18.
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/LandFill][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 Water, mud and marsh are friends. Take vantage of the terrain around you.
-Add soils, roads, bridges, sliding floors and more.
+Add soils, roads, bridges, sliding floors and more things for you be able to terraforming.
 
-CONTENT
-� Soils: build overwater. Some are growable and placed indoor.
-� Bridges: build overwater. Good to walk but deteriorate overtime.
-� Roads: build overwater. Walk more efficiently.
-� Foundations: build overwater. Set up for buildings.
-� Slides: build over soils and floors. Increase the walk speed.
-� Water: build over soils. Set up for terrains and slow down enemies.
-  (obs: overwater = over water, mud and marsh in most cases.)
+[h1]Content[/h1]
+[b]Soils:[/b] build overwater. Some are growable and placed indoor.
+[b]Bridges:[/b] build overwater. Good to walk but deteriorate overtime.
+[b]Roads:[/b] build overwater. Walk more efficiently.
+[b]Foundations:[/b] build overwater. Set up for buildings.
+[b]Slides:[/b] build over soils and floors. Increase the walk speed.
+[b]Water:[/b] build over soils. Set up for terrains and slow down enemies.
+[i]Obs.: overwater = over water, mud and marsh in most cases.[/i]
 
-BALANCING
-� Stuffs that rapidly deteriorate don't require much work or resources.
-� Bad stuffs starts with tribal colonies and don't require much work or resources.
-� The most part can't be removed but can be replaced (abuse of Primitive and Neutral soil).
-� Automated stuffs don't need energy and aren't breakable.
-� The pathCost of vanilla water, mud and marsh are slightly changed.
+[h1]Balancing[/h1]
+[b]Feel free to suggest value changes[/b]
+Stuffs that rapidly deteriorate don&apos;t require much work or resources.
+Bad stuffs starts with tribal colonies and don&apos;t require much work or resources.
+The most part can&apos;t be removed but can be replaced (abuse of Primitive and Neutral soil).
+Automated stuffs don&apos;t need energy and aren&apos;t breakable.
+The pathCost of vanilla water, mud and marsh are slightly changed.
 
-COMPATIBILITY
-� Compatible with existent saves but may present inconsistencies with some floor mods.
-  (example: be able to set some terrains in strange places).</description>
+[h1]Compatibility[/h1]
+Compatible with existent saves but may present inconsistencies with some floor mods.
+[i](example: be able to set some terrains in strange places).[/i]
+
+[h1]Links[/h1]
+ • [url=https://www.dropbox.com/sh/xrafe1ym3o6tlxc/AAClk62jkX49WLru72QmYpu7a/Land%20Fill.rar?dl=0]Download[/url]
+ • [url=https://ludeon.com/forums/index.php?topic=38984.0]Forum[/url]
+
+[h1]Changelog[/h1]
+[i]02/03/2018[/i]
+   - Small fixes
+[i]01/21/2018[/i]
+   - Add a new terrain: neutral soil;
+   - Small qol changes.
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
