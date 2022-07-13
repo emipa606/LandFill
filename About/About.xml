@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Land Fill (Terrains+) (Continued)</name>
   <packageId>Mlie.LandFill</packageId>
@@ -11,22 +11,26 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of tremeloes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1274692210
 
 - Might not work exactly as earlier as some features have been removed in the game since B18.
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/LandFill][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Water, mud and marsh are friends. Take vantage of the terrain around you.
 Add soils, roads, bridges, sliding floors and more things for you be able to terraforming.
@@ -42,10 +46,10 @@ Add soils, roads, bridges, sliding floors and more things for you be able to ter
 
 [h1]Balancing[/h1]
 [b]Feel free to suggest value changes[/b]
-Stuffs that rapidly deteriorate don&apos;t require much work or resources.
-Bad stuffs starts with tribal colonies and don&apos;t require much work or resources.
-The most part can&apos;t be removed but can be replaced (abuse of Primitive and Neutral soil).
-Automated stuffs don&apos;t need energy and aren&apos;t breakable.
+Stuffs that rapidly deteriorate don't require much work or resources.
+Bad stuffs starts with tribal colonies and don't require much work or resources.
+The most part can't be removed but can be replaced (abuse of Primitive and Neutral soil).
+Automated stuffs don't need energy and aren't breakable.
 The pathCost of vanilla water, mud and marsh are slightly changed.
 
 [h1]Compatibility[/h1]
@@ -64,7 +68,7 @@ Compatible with existent saves but may present inconsistencies with some floor m
    - Small qol changes.
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -75,4 +79,3 @@ Compatible with existent saves but may present inconsistencies with some floor m
 [/list]
 </description>
 </ModMetaData>
-
