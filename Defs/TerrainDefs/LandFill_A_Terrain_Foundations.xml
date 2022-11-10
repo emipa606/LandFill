@@ -58,6 +58,7 @@
     <pathCost>32</pathCost>
     <affordances>
       <li>Light</li>
+      <li>Medium</li>
       <li>Heavy</li>
     </affordances>
     <costList>

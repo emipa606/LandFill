@@ -1,5 +1,8 @@
 # Changelog for LandFill
 
+1.4.2 - Heavy foundation should now also give medium affordance
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
