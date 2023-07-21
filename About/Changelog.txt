@@ -1,5 +1,8 @@
 # Changelog for LandFill
 
+1.4.3 - Renamed affordance from Undefined to Unstable to better show what terrains foundations can be built on
+
+
 1.4.2 - Heavy foundation should now also give medium affordance
 
 

@@ -2,7 +2,7 @@
 <Defs>
   <TerrainAffordanceDef>
     <defName>Undefined</defName>
-    <label>undefined</label>
+    <label>unstable</label>
     <order>2500</order>
   </TerrainAffordanceDef>
 </Defs>

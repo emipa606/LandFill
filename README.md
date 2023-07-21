@@ -68,3 +68,4 @@ Compatible with existent saves but may present inconsistencies with some floor m
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2162781055]Last updated 2023-07-21
