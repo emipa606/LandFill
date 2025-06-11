@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: automated slide -->
+  <SlideAutomated.label>automated slide</SlideAutomated.label>
+  <!-- EN: A mechanical treademill on floor built from gears and bearings to walk really faster.\n\n•Don't support builds.\n•Set on smoothed floors.\n•Very fast, neutral beautiful.\n•Don't need energy.\n•Deteriorate in 1 year. -->
+  <SlideAutomated.description>A mechanical treademill on floor built from gears and bearings to walk really faster.
+
+•Don't support builds.
+•Set on smoothed floors.
+•Very fast, neutral beautiful.
+•Don't need energy.
+•Deteriorate in 1 year.</SlideAutomated.description>
+  <!-- EN: sliding ice -->
+  <SlideIce.label>sliding ice</SlideIce.label>
+  <!-- EN: A lot of ice dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.\n\n•Don't support builds.\n•Set on diggable soils.\n•Very fast, neutral beauty.\n•Deteriorate in 2 days. -->
+  <SlideIce.description>A lot of ice dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.
+
+•Don't support builds.
+•Set on diggable soils.
+•Very fast, neutral beauty.
+•Deteriorate in 2 days.</SlideIce.description>
+  <!-- EN: sliding mud -->
+  <SlideMud.label>sliding mud</SlideMud.label>
+  <!-- EN: A lot of mud dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.\n\n•Don't support builds.\n•Set on diggable soils.\n•Very fast, dirty, ugly.\n•Deteriorate in 5 days. -->
+  <SlideMud.description>A lot of mud dropped rapdly on the ground makes the colonists walk much faster but deteriorates quickly.
+
+•Don't support builds.
+•Set on diggable soils.
+•Very fast, dirty, ugly.
+•Deteriorate in 5 days.</SlideMud.description>
+</LanguageData>

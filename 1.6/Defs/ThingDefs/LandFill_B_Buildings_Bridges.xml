@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- General things -->
+  <ThingDef Name="LFBridgeBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0.35</fillPercent>
+    <pathCost>-10</pathCost>
+    <!-- (BridgePath) - (FoundationLightPath) = 0 !-->
+    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <drawStyleCategory>Floors</drawStyleCategory>
+    <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+    <resourcesFractionWhenDeconstructed>0.25</resourcesFractionWhenDeconstructed>
+    <staticSunShadowHeight>0.05</staticSunShadowHeight>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <repairEffect>ConstructDirt</repairEffect>
+    <filthLeaving>SandbagRubble</filthLeaving>
+    <designationCategory>DesignationLandFill</designationCategory>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+  </ThingDef>
+  <!-- New individual bridges -->
+  <ThingDef ParentName="LFBridgeBase">
+    <defName>LFBasicBridge</defName>
+    <label>basic bridge</label>
+    <thingClass>Building</thingClass>
+    <description>Standard bridge to walk. Colonists are afraid of height, they walk more faster if it's placed on light foundation.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Neutral speed, ugly.\n•Deteriorate in 5 days.</description>
+    <researchPrerequisites>
+      <li>ResearchLandFill</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Terrain/Linked/LandFill_BasicBridge_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom8</li>
+      </linkFlags>
+    </graphicData>
+    <uiIconPath>Terrain/Linked/LandFill_BasicBridge_MenuIcon</uiIconPath>
+    <costList>
+      <WoodLog>3</WoodLog>
+      <Steel>3</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Beauty>-1</Beauty>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0.22</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>300000</lifespanTicks>
+        <!-- 1 day = 60.000 ticks !-->
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="LFBridgeBase">
+    <defName>LFMetallicBridge</defName>
+    <label>metallic bridge</label>
+    <thingClass>Building</thingClass>
+    <description>A very resistent and beautiful bridge. Colonists are afraid of height, they walk more faster if it's placed on light foundation.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Neutral speed, very beauty.\n•Don't deteriorate.</description>
+    <researchPrerequisites>
+      <li>ResearchAdvancedBridge</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Terrain/Linked/LandFill_MetallicBridge_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom8</li>
+      </linkFlags>
+    </graphicData>
+    <uiIconPath>Terrain/Linked/LandFill_MetallicBridge_MenuIcon</uiIconPath>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>21</costStuffCount>
+    <building>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+    </building>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Beauty>6</Beauty>
+      <WorkToBuild>600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LFBridgeBase">
+    <defName>LFStoneBridge</defName>
+    <label>stone bridge</label>
+    <thingClass>Building</thingClass>
+    <researchPrerequisites>
+      <li>ResearchAdvancedBridge</li>
+    </researchPrerequisites>
+    <description>A very good bridge built from blocks to walk. Colonists are afraid of height, they walk more faster if it's placed on light foundation.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Neutral speed, beauty.\n•Deteriorate in 30 days.</description>
+    <graphicData>
+      <texPath>Terrain/Linked/LandFill_StoneBridge_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom7</li>
+      </linkFlags>
+    </graphicData>
+    <uiIconPath>Terrain/Linked/LandFill_StoneBridge_MenuIcon</uiIconPath>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>6</costStuffCount>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>3600000</lifespanTicks>
+        <!-- 1 day = 60.000 ticks !-->
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="LFBridgeBase">
+    <defName>LFPoweredBridge</defName>
+    <label>powered bridge</label>
+    <thingClass>Building</thingClass>
+    <description>A bridge with gears and bearings to walk faster. Set on light foundation to improve the speed.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Very fast, neutral beauty.\n•Don't need energy.\n•Don't deteriorate.</description>
+    <researchPrerequisites>
+      <li>ResearchPoweredBridge</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Terrain/Linked/LandFill_AutomatedBridge_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom6</li>
+      </linkFlags>
+    </graphicData>
+    <uiIconPath>Terrain/Linked/LandFill_AutomatedBridge_MenuIcon</uiIconPath>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>6</Steel>
+      <WoodLog>3</WoodLog>
+    </costList>
+    <pathCost>-21</pathCost>
+    <!-- (PoweredBridgePath) - (FoundationLightPath) = -11 !-->
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Beauty>0</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+</Defs>

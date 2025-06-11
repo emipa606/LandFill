@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: land Fill -->
+  <DesignationLandFill.label>land Fill</DesignationLandFill.label>
+  <!-- EN: Ways to change the terrain around you. -->
+  <DesignationLandFill.description>Ways to change the terrain around you.</DesignationLandFill.description>
+</LanguageData>

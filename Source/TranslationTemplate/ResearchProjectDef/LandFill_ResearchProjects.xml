@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: advanced bridges -->
+  <ResearchAdvancedBridge.label>advanced bridges</ResearchAdvancedBridge.label>
+  <!-- EN: Allows colonists to build metallic and stone bridges on unstable terrains (water, mud and marsh). They are more efficient than basic bridge. -->
+  <ResearchAdvancedBridge.description>Allows colonists to build metallic and stone bridges on unstable terrains (water, mud and marsh). They are more efficient than basic bridge.</ResearchAdvancedBridge.description>
+  <!-- EN: advanced slide -->
+  <ResearchAdvancedSlide.label>advanced slide</ResearchAdvancedSlide.label>
+  <!-- EN: Advanced slide has special mechanisms to walk really fast, better than other slides. -->
+  <ResearchAdvancedSlide.description>Advanced slide has special mechanisms to walk really fast, better than other slides.</ResearchAdvancedSlide.description>
+  <!-- EN: sliding floor -->
+  <ResearchBasicSlide.label>sliding floor</ResearchBasicSlide.label>
+  <!-- EN: Allows colonists to drop different stuffs on floor to better walk speed. It's fast to build and don't require much resources but deteriorate over time.\n\nNot much useful on mud or marsh. -->
+  <ResearchBasicSlide.description>Allows colonists to drop different stuffs on floor to better walk speed. It's fast to build and don't require much resources but deteriorate over time.
+
+Not much useful on mud or marsh.</ResearchBasicSlide.description>
+  <!-- EN: flagstone road -->
+  <ResearchFlagstoneRoad.label>flagstone road</ResearchFlagstoneRoad.label>
+  <!-- EN: Road built from chunks, much more efficient than simple roads. -->
+  <ResearchFlagstoneRoad.description>Road built from chunks, much more efficient than simple roads.</ResearchFlagstoneRoad.description>
+  <!-- EN: heavy foundation -->
+  <ResearchFoundationHeavy.label>heavy foundation</ResearchFoundationHeavy.label>
+  <!-- EN: Build foundations on unstable terrains (water, mud and marsh) to set support to heavy builds. -->
+  <ResearchFoundationHeavy.description>Build foundations on unstable terrains (water, mud and marsh) to set support to heavy builds.</ResearchFoundationHeavy.description>
+  <!-- EN: light foundation -->
+  <ResearchFoundationLight.label>light foundation</ResearchFoundationLight.label>
+  <!-- EN: Build foundations on unstable terrains (water, mud and marsh) to set support to light builds (especially to improve the walk speed of bridges). -->
+  <ResearchFoundationLight.description>Build foundations on unstable terrains (water, mud and marsh) to set support to light builds (especially to improve the walk speed of bridges).</ResearchFoundationLight.description>
+  <!-- EN: indoor soil -->
+  <ResearchIndoorSoil.label>indoor soil</ResearchIndoorSoil.label>
+  <!-- EN: Allows colonists to place a very simple soil on floors to slowly grow crops indoors.\n\nNeeds potatoes to be placed. -->
+  <ResearchIndoorSoil.description>Allows colonists to place a very simple soil on floors to slowly grow crops indoors.
+
+Needs potatoes to be placed.</ResearchIndoorSoil.description>
+  <!-- EN: land fill -->
+  <ResearchLandFill.label>land fill</ResearchLandFill.label>
+  <!-- EN: The basic to change the hostile terrain around you. This unlocks basic bridges, primitive soil, neutral soil and other research projects like flagstone road and super rich soil. -->
+  <ResearchLandFill.description>The basic to change the hostile terrain around you. This unlocks basic bridges, primitive soil, neutral soil and other research projects like flagstone road and super rich soil.</ResearchLandFill.description>
+  <!-- EN: powered bridge -->
+  <ResearchPoweredBridge.label>powered bridge</ResearchPoweredBridge.label>
+  <!-- EN: Powered bridge has special mechanisms to walk really fast, better than other bridges. -->
+  <ResearchPoweredBridge.description>Powered bridge has special mechanisms to walk really fast, better than other bridges.</ResearchPoweredBridge.description>
+  <!-- EN: simple road -->
+  <ResearchSimpleRoad.label>simple road</ResearchSimpleRoad.label>
+  <!-- EN: Allows colonists to build a simple road on unstable terrains (water, mud and marsh) to efficient walk. -->
+  <ResearchSimpleRoad.description>Allows colonists to build a simple road on unstable terrains (water, mud and marsh) to efficient walk.</ResearchSimpleRoad.description>
+  <!-- EN: super rich soil -->
+  <ResearchSuperRichSoil.label>super rich soil</ResearchSuperRichSoil.label>
+  <!-- EN: Allows colonists to place super rich soil directly on unstable terrains (water, mud and marsh). It's the most growable soil of the galaxy.\n\nNeeds corn and devilstrand to be placed. -->
+  <ResearchSuperRichSoil.description>Allows colonists to place super rich soil directly on unstable terrains (water, mud and marsh). It's the most growable soil of the galaxy.
+
+Needs corn and devilstrand to be placed.</ResearchSuperRichSoil.description>
+  <!-- EN: water deep -->
+  <ResearchWaterDeep.label>water deep</ResearchWaterDeep.label>
+  <!-- EN: Transform a existent unstable terrain (water, mud and marsh) on deep water. Not so deep like natural deep water but hard to walk. Very useful to slow down enemies but require a lot of work. -->
+  <ResearchWaterDeep.description>Transform a existent unstable terrain (water, mud and marsh) on deep water. Not so deep like natural deep water but hard to walk. Very useful to slow down enemies but require a lot of work.</ResearchWaterDeep.description>
+  <!-- EN: water shallow -->
+  <ResearchWaterShallow.label>water shallow</ResearchWaterShallow.label>
+  <!-- EN: Allows colonists to drop water on diggable terrains until form passable shallow water. Useful to set up soils or slow down enemies but require a lot of work. -->
+  <ResearchWaterShallow.description>Allows colonists to drop water on diggable terrains until form passable shallow water. Useful to set up soils or slow down enemies but require a lot of work.</ResearchWaterShallow.description>
+</LanguageData>

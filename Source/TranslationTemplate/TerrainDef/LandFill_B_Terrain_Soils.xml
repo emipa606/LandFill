@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: indoor soil -->
+  <LFIndoorSoil.label>indoor soil</LFIndoorSoil.label>
+  <!-- EN: A simple soil placed on smooth floors to grow inside home. Not so good than natural soil.\n\n•Support only light builds.\n•Growable\n•Set on smoothed floors.\n•Slow, dirty, ugly. -->
+  <LFIndoorSoil.description>A simple soil placed on smooth floors to grow inside home. Not so good than natural soil.
+
+•Support only light builds.
+•Growable
+•Set on smoothed floors.
+•Slow, dirty, ugly.</LFIndoorSoil.description>
+  <!-- EN: neutral soil -->
+  <LFNeutralSoil.label>neutral soil</LFNeutralSoil.label>
+  <!-- EN: Neutral terrain placed over soils or strong floors like foundations.\n\n•Don't support builds.\n•Set on floors, mud, marsh.\n•Not growable.\n•Slow, dirty, ugly. -->
+  <LFNeutralSoil.description>Neutral terrain placed over soils or strong floors like foundations.
+
+•Don't support builds.
+•Set on floors, mud, marsh.
+•Not growable.
+•Slow, dirty, ugly.</LFNeutralSoil.description>
+  <!-- EN: primitive soil -->
+  <LFPrimitiveSoil.label>primitive soil</LFPrimitiveSoil.label>
+  <!-- EN: Very bad soil but don't need resources or research to build. Work to walk over water.\n\n•Don't support builds.\n•Set on water, mud, marsh.\n•Very slow, very dirty, ugly. -->
+  <LFPrimitiveSoil.description>Very bad soil but don't need resources or research to build. Work to walk over water.
+
+•Don't support builds.
+•Set on water, mud, marsh.
+•Very slow, very dirty, ugly.</LFPrimitiveSoil.description>
+  <!-- EN: super rich soil -->
+  <LFSuperRich.label>super rich soil</LFSuperRich.label>
+  <!-- EN: Best soil on the galaxy to plants but needs a lot of resources to be placed.\n\n•Support only light builds.\n•VERY Growable\n•Set on water, mud, marsh.\n•Neutral speed. -->
+  <LFSuperRich.description>Best soil on the galaxy to plants but needs a lot of resources to be placed.
+
+•Support only light builds.
+•VERY Growable
+•Set on water, mud, marsh.
+•Neutral speed.</LFSuperRich.description>
+</LanguageData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: granite overwater -->
+  <GraniteFlagstoneOverwater.label>granite overwater</GraniteFlagstoneOverwater.label>
+  <!-- EN: A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty. -->
+  <GraniteFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.
+
+•Support only light builds.
+•Set on water, mud, marsh.
+•Fast, neutral beauty.</GraniteFlagstoneOverwater.description>
+  <!-- EN: limestone overwater -->
+  <LimeFlagstoneOverwater.label>limestone overwater</LimeFlagstoneOverwater.label>
+  <!-- EN: A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty. -->
+  <LimeFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.
+
+•Support only light builds.
+•Set on water, mud, marsh.
+•Fast, neutral beauty.</LimeFlagstoneOverwater.description>
+  <!-- EN: marble overwater -->
+  <MarbleFlagstoneOverwater.label>marble overwater</MarbleFlagstoneOverwater.label>
+  <!-- EN: A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty. -->
+  <MarbleFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.
+
+•Support only light builds.
+•Set on water, mud, marsh.
+•Fast, neutral beauty.</MarbleFlagstoneOverwater.description>
+  <!-- EN: simple road overwater -->
+  <OverwaterSimpleRoad.label>simple road overwater</OverwaterSimpleRoad.label>
+  <!-- EN: A simple road built from simple materials, work to walk.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Slow, dirty and ugly. -->
+  <OverwaterSimpleRoad.description>A simple road built from simple materials, work to walk.
+
+•Support only light builds.
+•Set on water, mud, marsh.
+•Slow, dirty and ugly.</OverwaterSimpleRoad.description>
+  <!-- EN: sandstone overwater -->
+  <SandFlagstoneOverwater.label>sandstone overwater</SandFlagstoneOverwater.label>
+  <!-- EN: A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty. -->
+  <SandFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.
+
+•Support only light builds.
+•Set on water, mud, marsh.
+•Fast, neutral beauty.</SandFlagstoneOverwater.description>
+  <!-- EN: slate overwater -->
+  <SlateFlagstoneOverwater.label>slate overwater</SlateFlagstoneOverwater.label>
+  <!-- EN: A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty. -->
+  <SlateFlagstoneOverwater.description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.
+
+•Support only light builds.
+•Set on water, mud, marsh.
+•Fast, neutral beauty.</SlateFlagstoneOverwater.description>
+</LanguageData>

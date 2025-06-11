@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1400076877
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67e4fa502b73e9bc7fa5b1eb3535910b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 67e4fa502b73e9bc7fa5b1eb3535910b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Surfaces/LandFill_FoundationHeavy.jpg
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_AutomatedBridge_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_BasicBridge_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_SlideAutomated_Atlas.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_StoneBridge_Atlas.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_SlideAutomated_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_AutomatedBridge_Atlas.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_SlideIce_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_MetallicBridge_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_SlideMud_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_SlideMud_Atlas.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_BasicBridge_Atlas.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_MetallicBridge_Atlas.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Surfaces/LandFill_FoundationLight.jpg
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_StoneBridge_MenuIcon.png
+- Assets/Data/Mlie.LandFill/Textures/Terrain/Linked/LandFill_SlideIce_Atlas.png
+Dependencies: []

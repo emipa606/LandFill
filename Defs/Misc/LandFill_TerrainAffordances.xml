@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-  <TerrainAffordanceDef>
-    <defName>Undefined</defName>
-    <label>unstable</label>
-    <order>2500</order>
-  </TerrainAffordanceDef>
-</Defs>

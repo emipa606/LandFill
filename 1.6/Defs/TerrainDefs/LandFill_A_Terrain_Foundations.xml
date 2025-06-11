@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- General things -->
+  <TerrainDef Name="LFFoundationBase" Abstract="True">
+    <designationCategory>DesignationLandFill</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <passability>PassThroughOnly</passability>
+    <fertility>0</fertility>
+    <resourcesFractionWhenDeconstructed>0.3</resourcesFractionWhenDeconstructed>
+    <takeFootprints>True</takeFootprints>
+  </TerrainDef>
+  <!-- New individual foundations -->
+  <TerrainDef ParentName="LFNewWaterBase">
+    <!-- Using other parent name instead LFFoundationFloodBase !-->
+    <defName>LFFoundationLight</defName>
+    <label>light foundation</label>
+    <description>A foundation placed on unstable terrains to make they strong for light buildings, especially bridges.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Slow, very ugly.</description>
+    <texturePath>Terrain/Surfaces/LandFill_FoundationLight</texturePath>
+    <renderPrecedence>320</renderPrecedence>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <researchPrerequisites>
+      <li>ResearchFoundationLight</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+    <drawStyleCategory>Floors</drawStyleCategory>
+    <statBases>
+      <WorkToBuild>500</WorkToBuild>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <resourcesFractionWhenDeconstructed>0.3</resourcesFractionWhenDeconstructed>
+    <pathCost>10</pathCost>
+    <!-- Mud/Marsh/ShallowWater Path = 15 !-->
+    <affordances>
+      <li>Light</li>
+    </affordances>
+    <costList>
+      <Steel>6</Steel>
+      <WoodLog>9</WoodLog>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="LFFoundationBase">
+    <defName>LFFoundationHeavy</defName>
+    <label>heavy foundation</label>
+    <description>A foundation placed on unstable terrains to make they strong for buildings.\n\n•Support builds.\n•Set on water, mud, marsh.\n•Slow, dirty, very ugly.</description>
+    <texturePath>Terrain/Surfaces/LandFill_FoundationHeavy</texturePath>
+    <renderPrecedence>321</renderPrecedence>
+    <edgeType>FadeRough</edgeType>
+    <researchPrerequisites>
+      <li>ResearchFoundationHeavy</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+    <statBases>
+      <WorkToBuild>900</WorkToBuild>
+      <Beauty>-3</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <changeable>true</changeable>
+    <pathCost>32</pathCost>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <costList>
+      <Steel>9</Steel>
+      <WoodLog>12</WoodLog>
+    </costList>
+  </TerrainDef>
+</Defs>

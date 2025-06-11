@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: basic bridge -->
+  <LFBasicBridge.label>basic bridge</LFBasicBridge.label>
+  <!-- EN: Standard bridge to walk. Colonists are afraid of height, they walk more faster if it's placed on light foundation.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Neutral speed, ugly.\n•Deteriorate in 5 days. -->
+  <LFBasicBridge.description>Standard bridge to walk. Colonists are afraid of height, they walk more faster if it's placed on light foundation.
+
+•Don't support builds.
+•Set on water, mud and marsh.
+•Neutral speed, ugly.
+•Deteriorate in 5 days.</LFBasicBridge.description>
+  <!-- EN: metallic bridge -->
+  <LFMetallicBridge.label>metallic bridge</LFMetallicBridge.label>
+  <!-- EN: A very resistent and beautiful bridge. Colonists are afraid of height, they walk more faster if it's placed on light foundation.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Neutral speed, very beauty.\n•Don't deteriorate. -->
+  <LFMetallicBridge.description>A very resistent and beautiful bridge. Colonists are afraid of height, they walk more faster if it's placed on light foundation.
+
+•Don't support builds.
+•Set on water, mud and marsh.
+•Neutral speed, very beauty.
+•Don't deteriorate.</LFMetallicBridge.description>
+  <!-- EN: powered bridge -->
+  <LFPoweredBridge.label>powered bridge</LFPoweredBridge.label>
+  <!-- EN: A bridge with gears and bearings to walk faster. Set on light foundation to improve the speed.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Very fast, neutral beauty.\n•Don't need energy.\n•Don't deteriorate. -->
+  <LFPoweredBridge.description>A bridge with gears and bearings to walk faster. Set on light foundation to improve the speed.
+
+•Don't support builds.
+•Set on water, mud and marsh.
+•Very fast, neutral beauty.
+•Don't need energy.
+•Don't deteriorate.</LFPoweredBridge.description>
+  <!-- EN: stone bridge -->
+  <LFStoneBridge.label>stone bridge</LFStoneBridge.label>
+  <!-- EN: A very good bridge built from blocks to walk. Colonists are afraid of height, they walk more faster if it's placed on light foundation.\n\n•Don't support builds.\n•Set on water, mud and marsh.\n•Neutral speed, beauty.\n•Deteriorate in 30 days. -->
+  <LFStoneBridge.description>A very good bridge built from blocks to walk. Colonists are afraid of height, they walk more faster if it's placed on light foundation.
+
+•Don't support builds.
+•Set on water, mud and marsh.
+•Neutral speed, beauty.
+•Deteriorate in 30 days.</LFStoneBridge.description>
+</LanguageData>

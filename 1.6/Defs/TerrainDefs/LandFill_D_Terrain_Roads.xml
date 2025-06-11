@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- New individual roads -->
+  <TerrainDef ParentName="LFTerrainBase">
+    <defName>OverwaterSimpleRoad</defName>
+    <label>simple road overwater</label>
+    <description>A simple road built from simple materials, work to walk.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Slow, dirty and ugly.</description>
+    <texturePath>Terrain/Surfaces/BrokenAsphalt</texturePath>
+    <color>(255,255,255)</color>
+    <renderPrecedence>354</renderPrecedence>
+    <researchPrerequisites>
+      <li>ResearchSimpleRoad</li>
+    </researchPrerequisites>
+    <costList>
+      <Steel>5</Steel>
+      <WoodLog>6</WoodLog>
+    </costList>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>900</WorkToBuild>
+    </statBases>
+    <pathCost>2</pathCost>
+  </TerrainDef>
+  <!-- General things -->
+  <TerrainDef Name="LFFlagstoneBase" Abstract="True">
+    <description>A very good road of flagstone placed directly on water, nice to walk but doesn't support much weight.\n\n•Support only light builds.\n•Set on water, mud, marsh.\n•Fast, neutral beauty.</description>
+    <designationCategory>DesignationLandFill</designationCategory>
+    <texturePath>Terrain/Surfaces/Flagstone</texturePath>
+    <renderPrecedence>371</renderPrecedence>
+    <fertility>0</fertility>
+    <edgeType>FadeRough</edgeType>
+    <layerable>true</layerable>
+    <constructEffect>ConstructDirt</constructEffect>
+    <researchPrerequisites>
+      <li>ResearchFlagstoneRoad</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>1100</WorkToBuild>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+    </affordances>
+    <pathCost>0</pathCost>
+    <takeFootprints>False</takeFootprints>
+  </TerrainDef>
+  <!-- New individual flagstone roads -->
+  <TerrainDef ParentName="LFFlagstoneBase">
+    <defName>SandFlagstoneOverwater</defName>
+    <label>sandstone overwater</label>
+    <color>(126,104,94)</color>
+    <costList>
+      <ChunkSandstone>1</ChunkSandstone>
+      <Steel>7</Steel>
+      <WoodLog>9</WoodLog>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="LFFlagstoneBase">
+    <defName>GraniteFlagstoneOverwater</defName>
+    <label>granite overwater</label>
+    <color>(105,95,97)</color>
+    <costList>
+      <ChunkGranite>1</ChunkGranite>
+      <Steel>7</Steel>
+      <WoodLog>9</WoodLog>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="LFFlagstoneBase">
+    <defName>LimeFlagstoneOverwater</defName>
+    <label>limestone overwater</label>
+    <color>(158,153,135)</color>
+    <costList>
+      <ChunkLimestone>1</ChunkLimestone>
+      <Steel>7</Steel>
+      <WoodLog>9</WoodLog>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="LFFlagstoneBase">
+    <defName>SlateFlagstoneOverwater</defName>
+    <label>slate overwater</label>
+    <color>(105,105,105)</color>
+    <costList>
+      <ChunkSlate>1</ChunkSlate>
+      <Steel>7</Steel>
+      <WoodLog>9</WoodLog>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="LFFlagstoneBase">
+    <defName>MarbleFlagstoneOverwater</defName>
+    <label>marble overwater</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <ChunkMarble>1</ChunkMarble>
+      <Steel>7</Steel>
+      <WoodLog>9</WoodLog>
+    </costList>
+  </TerrainDef>
+</Defs>
