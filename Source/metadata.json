@@ -3,7 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-14T19:47:58.880343+02:00",
+  "LastXmlCleaning": "2025-07-15T21:19:47.3879855+02:00",
   "SocialImageSet": true,
-  "SearchTags": " terrain features"
+  "SearchTags": " terrain features",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 43162,
+  "CodeBaseSize": 73
 }

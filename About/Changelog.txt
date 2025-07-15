@@ -1,5 +1,8 @@
 # Changelog for LandFill
 
+1.6.2 - Reupload with fixed asset bundle, terrain has specific bundle-properties
+
+
 1.6.1 - Fixed unique asset bundle filename
 
 
